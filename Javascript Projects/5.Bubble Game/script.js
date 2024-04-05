@@ -1,4 +1,5 @@
 let restartBtn = document.getElementById('restart')
+let time = 60;
 
 
 // Bubble Making Function
@@ -14,7 +15,7 @@ function makeBubble() {
 
 // Timer Function 
 
-let time = 60;
+
 function timer() {
     let timeInertval = setInterval(function () {
         if (time > 0) {
@@ -69,9 +70,9 @@ restartBtn.onclick = function () {
     location.reload();
 }
 
-
-
+makeBubble()
 makeBubble()
 timer();
 hitFunc();
 scoreFun()
+
