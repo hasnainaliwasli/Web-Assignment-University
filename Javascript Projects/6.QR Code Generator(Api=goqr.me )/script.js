@@ -1,7 +1,12 @@
+let imgBox = document.getElementById('image')
+
+
 document.getElementById('btn').onclick = () => {
     let value = document.getElementById('input').value;
     let link = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + encodeURIComponent(value);
-    document.getElementById('img').src = link
+    document.getElementById('img').src = link;
+
+    imgBox.classList.add('show-img');
 }
 
 
