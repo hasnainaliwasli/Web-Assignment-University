@@ -2,11 +2,26 @@ let imgBox = document.getElementById('image')
 
 
 document.getElementById('btn').onclick = () => {
-    let value = document.getElementById('input').value;
-    let link = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + encodeURIComponent(value);
-    document.getElementById('img').src = link;
+    let inputValue = document.getElementById('input').value;
 
-    imgBox.classList.add('show-img');
+    console.log(inputValue);
+    if (inputValue !== '') {
+        document.getElementById('image').innerHTML = '<img src="" alt="" id="img">'
+
+        let link = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + encodeURIComponent(inputValue);
+        document.getElementById('img').src = link;
+        imgBox.classList.add('show-img');
+    }
+    else {
+        let inputField = document.getElementById('input');
+        inputField.classList.add('error');
+
+        document.getElementById('image').innerHTML = `<span style="font-size:20px ; font-weight:600 ; color:red">Please Type your text!</span>`;
+        setTimeout(() => {
+            inputField.classList.remove('error'); // Remove error class from the input field
+        }, 1000);
+    }
+
 }
 
 
