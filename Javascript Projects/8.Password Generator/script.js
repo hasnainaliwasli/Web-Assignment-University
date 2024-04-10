@@ -1,9 +1,9 @@
 
-const rangeInput = document.getElementById('rangeInput');
 const outputValue = document.getElementById('output');
 const btn = document.getElementById('button');
 
-
+let yours = document.getElementById('your')
+yours.style.visibility = 'hidden'
 
 
 // -------------
@@ -31,11 +31,18 @@ function generatePassword(length) {
 
 
 btn.addEventListener('click', function () {
+    const rangeInput = document.getElementById('rangeInput').value;
 
-    const passwordLength = 12;
+    const passwordLength = rangeInput;
     const newPassword = generatePassword(passwordLength);
-
     outputValue.innerHTML = newPassword
+    if (!newPassword) {
+        yours.style.visibility = 'hidden'
+    }
+    else {
+
+        yours.style.visibility = 'visible'
+    }
 });
 
 
