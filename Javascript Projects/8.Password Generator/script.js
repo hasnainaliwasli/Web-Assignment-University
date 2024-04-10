@@ -44,9 +44,10 @@ btn.addEventListener('click', function () {
         copyButton.style.visibility = 'hidden'
     }
     else {
-
         yours.style.visibility = 'visible'
         copyButton.style.visibility = 'visible'
+        btn.innerHTML = "Again Generate"
+        
     }
 });
 
