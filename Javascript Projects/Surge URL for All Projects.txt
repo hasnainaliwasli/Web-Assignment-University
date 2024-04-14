@@ -21,3 +21,7 @@ counters_app.surge.sh
 
 8.Password Generator
 Password_generator_project.surge.sh
+
+
+9.Calculator
+very_simple_calculator.surge.sh
