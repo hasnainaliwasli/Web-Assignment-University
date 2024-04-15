@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 7%;
+        }
+
+        .first {
+            padding: 20px;
+        }
+
+        h1 {
+            user-select: none;
+        }
+
+        label {
+            user-select: none;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: sans-serif;
+        }
+
+        input {
+            padding: 12px;
+            font-size: 18px;
+            font-weight: 600;
+            padding-left: 7px;
+            font-family: sans-serif;
+            text-align: center;
+            width: 100px;
+        }
+
+        #sum {
+            padding: 15px;
+            border: 2px solid black;
+            margin-top: 30px;
+            font-size: 26px;
+            font-weight: 600;
+            font-family: sans-serif;
+            border-radius: 20px;
+            user-select: none;
+        }
+
+        #btn {
+            margin-top: 20px;
+            padding: 12px;
+            font-size: 25px;
+            font-weight: 700;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <!-- Write HTML and JavaScript code that can create a simple calculator to add two numbers. -->
+    <form id="myForm">
+        <h1>Enter Two Numbers</h1>
+        <div class="first">
+            <label for="num1">Enter 1st number : </label>
+            <input type="number" id="num1">
+        </div>
+
+        <div class="second">
+            <label for="num2">Enter 2nd number : </label>
+            <input type="number" id="num2">
+        </div>
+
+        <button id="btn">Sum</button>
+        <!-- <input type="submit" id="btn"> -->
+
+        <div id="sum">
+           
+        </div>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
