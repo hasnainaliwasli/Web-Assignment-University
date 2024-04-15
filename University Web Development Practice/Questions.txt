@@ -1,0 +1,20 @@
+    Write HTML and JavaScript code that can display "Hello, World!" in a <div> element.
+    Write HTML and JavaScript code that can change the background color of a webpage when a button is clicked.
+    Write HTML and JavaScript code that can create a simple calculator to add two numbers.
+    Write HTML and JavaScript code that can display an alert box with a custom message when a link is clicked.
+    Write HTML and JavaScript code that can validate a form input to ensure it is not empty before submission.
+    Write HTML and JavaScript code that can toggle the visibility of an image when a button is clicked.
+    Write HTML and JavaScript code that can generate a random number between 1 and 100 when a button is clicked.
+    Write HTML and JavaScript code that can create a countdown timer starting from 10 and decrementing by 1 every second.
+    Write HTML and JavaScript code that can change the font size of a paragraph when hovering over it with the mouse.
+    Write HTML and JavaScript code that can change the text color of a heading every 2 seconds.
+    Write HTML and JavaScript code that can display a message if a user's age is above 18 when a button is clicked.
+    Write HTML and JavaScript code that can animate an image to move across the screen when a button is clicked.
+    Write HTML and JavaScript code that can create a dropdown menu with three options and display an alert with the selected option.
+    Write HTML and JavaScript code that can validate a password input to ensure it meets a minimum length requirement before submission.
+    Write HTML and JavaScript code that can show/hide a password input field when a checkbox is checked/unchecked.
+    Write HTML and JavaScript code that can create a simple quiz with multiple-choice questions and display the score when submitted.
+    Write HTML and JavaScript code that can scroll to the top of the page when a button is clicked.
+    Write HTML and JavaScript code that can play a sound when a button is clicked.
+    Write HTML and JavaScript code that can display a random quote from an array of quotes when a button is clicked.
+    Write HTML and JavaScript code that can create a slideshow of images with next and previous buttons.
